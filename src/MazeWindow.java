@@ -44,6 +44,7 @@ public class MazeWindow extends Application {
         launch(args);
     }
 
+    //This will run the GUI Maze Solver
     @Override
     public void start(Stage primaryStage) throws Exception {
         pane = new MazePane();
